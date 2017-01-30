@@ -1,0 +1,54 @@
+page-hello-ionic {
+  .home {
+    background-image: url("../assets/img/Home.jpg");
+    min-height: 600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .intro-lead-in {
+      font-size: 28px;
+      color: white;
+      text-align: center;
+      margin: 0
+    }
+    .intro-heading {
+      font-size: 50px;
+      color: white;
+      text-align: center;
+      margin: 0;
+    }
+  }
+
+  .aboutus {
+    background-image: url("../assets/img/Aboutus.jpg");
+    font-family: Open Sans Regular;
+    min-height: 500px;
+    font-weight: 400;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .section-heading {
+      font-family: Open Sans Regular;
+      font-size: 50px;
+      font-weight: 400;
+      text-align: left;
+      padding-left: 40px;
+      color: #ffffff;
+      margin: 0;
+    }
+
+    blockquote {
+      color: wheat;
+      font-size: 25px;
+    }
+  }
+
+  .industries{
+    background-image: url("../assets/img/Industries_big.jpg");
+  }.services{
+    background-image: url("../assets/img/Services_small.jpg");
+  }
+}
